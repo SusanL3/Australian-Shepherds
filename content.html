@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Australian Shepherd Dogs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Caveat', cursive;
+            background: linear-gradient(to right, #a1c4fd, #c2e9fb), url('paw-print-background.png') repeat;
+            background-blend-mode: overlay;
+            background-size: cover;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff6f61;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 10px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: 'EB Garamond', serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        a {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            background-color: #ff6f61;
+            border-radius: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: 'Caveat', cursive;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        a:hover {
+            background-color: #ff4c3b;
+            transform: scale(1.05);
+        }
+
+        .material-icons {
+            margin-right: 8px;
+        }
+
+        .divider {
+            width: 80%;
+            height: 2px;
+            background-color: #ff6f61;
+            margin: 20px auto;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .paw-print {
+            width: 30px;
+            height: 30px;
+            background: url('paw-print.png') no-repeat center center;
+            background-size: contain;
+            display: inline-block;
+            margin: 5px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>About Our Australian Shepherd Dogs</h1>
+    <div class="content">
+        <p>The Australian Shepherd is an intelligent, energetic breed. They excel in various roles such as working dogs and companions.</p>
+        <div class="divider"></div>
+        <img src="playing.jpg" alt="Australian Shepherd">
+        <p>Aussies are known for their strong work ethic and agility. They come in colors like black, blue merle, red, and red merle.</p>
+        <div class="divider"></div>
+        <p>They are friendly, affectionate, and make great family pets. Regular exercise is a must to keep them happy.</p>
+        <div class="divider"></div>
+        <img src="Two Aussies.jpg" alt="Australian Shepherd">
+        <p>We breed our dogs carefully, ensuring that the parent dogs are healthy and have good temperaments. Our puppies are priced between $1500 and $2500, depending on the color and markings.</p>
+    </div>
+    <a href="index.html"><span class="material-icons">arrow_back</span>Back to Main Page</a>
+    <div class="paw-print"></div>
+    <div class="paw-print"></div>
+    <div class="paw-print"></div>
+</body>
+</html>
